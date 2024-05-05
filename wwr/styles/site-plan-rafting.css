@@ -18,7 +18,7 @@ body {
     --nav-background-color: #00aa9a;
     --nav-link-color: #365381;
     --nav-hover-link-color: #11270B;
-    --nav-hover-background-color: #00aa9a
+    --nav-hover-background-color: #00AA9A;
 }
 body {
    font: var(--paragraph-font);
