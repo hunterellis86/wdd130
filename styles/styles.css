@@ -27,6 +27,7 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     width: 20rem;
     text-align: center;
 }
@@ -35,12 +36,12 @@ aside img {
     height: auto;
 }
 aside h2 {
-    position:relative;
+    position: absolute;
     top: 30px;
     left: 10px;
 }
 main img{
-    float:right;
+    float: right;
     width: 150px;
     height: auto;
 }
@@ -49,7 +50,6 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
@@ -57,3 +57,4 @@ footer {
     background-color: #2F4F4f;
     color: gainsboro;
 }
+/* Class Selectors */
