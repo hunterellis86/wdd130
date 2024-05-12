@@ -48,7 +48,7 @@ p {
 	opacity: 0.9;
 }
 .hero h1 {
-    width: 640px;
+    width: 100%;
     position: absolute;
     top: 25px;
     left:0; 
