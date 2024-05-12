@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Tac+One&display=swap');
+:root {
+    --primary-color: #00AA9A;
+    --secondary-color: #3653B1;
+    --accent1-color: #11270B;
+    --accent2-color: #170F11;
+
+    --heading-font: 'Tac One',serif;
+    --paragraph-font: 'Istok Web',serif;
+
+    --nav-background-color: #00aa9a;
+    --nav-link-color: #365381;
+    --nav-hover-link-color: #11270B;
+    --nav-hover-background-color: #00AA9A;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    padding: 25px;
+}
+.sociallinks {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article img {
+    width: 200px;
+    height: auto;
+    float: right
+}
+.stats {
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+}
+.hero h1 {
+    width: 640px;
+    position: absolute;
+    top: 25px;
+    left:0; 
+    background-color: #11270B;
+    text-align: center;
+
+}
+.hero article {
+    position: absolute;
+}
