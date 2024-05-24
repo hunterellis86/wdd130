@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title> Quiz CSS and HTML</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Hunter Ellis, Quiz, CSS, HTML">
+        <meta name="author" content="Hunter Ellis">
+        <link rel="stylesheet" href="styles/quiz.css">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1> Pop Quiz!</h1>
+        </header>
+        <main>
+            <form> 
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="q1"> What is the first declaration set when starting a new html document?</label>
+                        <input type="text" id="q1" name="q1">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="q2">Write the content in the head element for a basic document</label>
+                        <input type="textarea" id="q2" name="q2">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="q3">What is the correct button to push when validating you html?</label>
+                        <select id="q3" name="q3">
+                            <option value="chrome">Validate Local HTML</option>
+                            <option value="fiirefox">Validate Local CSS</option>
+                            <option value="safari">Validate HTML</option>
+                            <option value="edge">Validate CSS</option>
+                            <option value="brave">Validate Feed</option>
+                            <option value="other">Validate Links</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <div class="form-item">
+                        <label for="feedback">List the places you have lived:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
