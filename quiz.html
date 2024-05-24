@@ -15,14 +15,14 @@
         <main>
             <form> 
                 <fieldset>
-                    <legend>Contact Information</legend>
+                    <legend>Questions</legend>
                     <div class="form-item column2">
                         <label for="q1"> What is the first declaration set when starting a new html document?</label>
                         <input type="text" id="q1" name="q1">
                     </div>
                     <div class="form-item column2">
                         <label for="q2">Write the content in the head element for a basic document</label>
-                        <input type="textarea" id="q2" name="q2">
+                        <textarea id="q2" name="q2" rows="4" cols="4"></textarea> 
                     </div>
                 </fieldset>
                 <fieldset>
@@ -30,21 +30,17 @@
                     <div class="form-item column1">
                         <label for="q3">What is the correct button to push when validating you html?</label>
                         <select id="q3" name="q3">
-                            <option value="chrome">Validate Local HTML</option>
-                            <option value="fiirefox">Validate Local CSS</option>
-                            <option value="safari">Validate HTML</option>
-                            <option value="edge">Validate CSS</option>
-                            <option value="brave">Validate Feed</option>
-                            <option value="other">Validate Links</option>
+                            <option value="option1">Validate Local HTML</option>
+                            <option value="option2">Validate Local CSS</option>
+                            <option value="option3">Validate HTML</option>
+                            <option value="option4">Validate CSS</option>
+                            <option value="option5">Validate Feed</option>
+                            <option value="option6">Validate Links</option>
                         </select>
                     </div>
                     <div class="form-item column1">
-                        <label for="pet">Do you have a household pet?</label>
-                        <input type="checkbox" id="pet" name="pet">
-                    </div>
-                    <div class="form-item">
-                        <label for="feedback">List the places you have lived:</label>
-                        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                        <label for="q4">How many questions are in the quiz?</label>
+                        <input type="number" id="q4" name="q4" min="0" max="100" step="1">
                     </div>
                 </fieldset>
                 <button type="submit">Submit Quiz</button>
