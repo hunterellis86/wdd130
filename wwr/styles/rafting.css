@@ -120,8 +120,20 @@ nav {
     left:0; 
     background-color: #11270B;
     text-align: center;
-
 }
 .hero article {
     position: absolute;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.huzah {
+    grid-column: 1/6;
+    align-items: center;
+    align-content: space-around;
+}
+h1 {
+    text-align: center;
 }
