@@ -182,6 +182,7 @@ button {
     border-radius: 0.5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    max-width: 300px;
 }
 button:hover {
     background-color: darkgreen;
@@ -197,6 +198,7 @@ footer {
 .form-item {
     display: grid;
     align-items: center;
+    max-width: 500px;
 }
 .column1 {
     grid-template-columns: 3fr 1fr;
