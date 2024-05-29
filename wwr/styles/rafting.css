@@ -152,6 +152,7 @@ fieldset {
     margin: 1rem;
     border: 1px solid #333;
     padding: 1rem;
+    width: 200px;
 }
 legend {
     padding: 0.5rem;
@@ -198,7 +199,7 @@ footer {
 .form-item {
     display: grid;
     align-items: center;
-    max-width: 500px;
+    width: 600px;
 }
 .column1 {
     grid-template-columns: 3fr 1fr;
