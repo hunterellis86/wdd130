@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Tac+One&display=swap');
 :root {
-    --primary-color: #00AA9A;
+    --primary-color: #060d41;
     --secondary-color: #3653B1;
     --accent1-color: #11270B;
     --accent2-color: #170F11;
@@ -8,10 +8,10 @@
     --heading-font: 'Tac One',serif;
     --paragraph-font: 'Istok Web',serif;
 
-    --nav-background-color: #00aa9a;
+    --nav-background-color: #060d41;
     --nav-link-color: #365381;
     --nav-hover-link-color: #11270B;
-    --nav-hover-background-color: #00AA9A;
+    --nav-hover-background-color: #060d41;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -207,4 +207,21 @@ footer {
 }
 .column2 {
     grid-template-columns: 1fr 2fr;
+}
+.recreation {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
 }
